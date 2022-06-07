@@ -24,7 +24,7 @@ const Navbar = () => {
               alt="Commerce.js"
               height="25px"
               className={classes.image}
-            />
+            /> Brandname
           </Typography>
           <div className={classes.grow}></div>
           <div className={classes.button}>
