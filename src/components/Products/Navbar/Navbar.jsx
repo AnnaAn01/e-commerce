@@ -10,8 +10,10 @@ import {
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
 import logo from "../../assets/logo.png";
+import useStyles from "./styles";
 
 const Navbar = () => {
+  const classes = useStyles();
   return (
     <>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
